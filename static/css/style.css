@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .upload-area {
+    border: 2px dashed #ccc;
+    padding: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .upload-area:hover {
+    border-color: #4CAF50;
+  }
+  
+  .upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .analyze-btn {
+    display: none;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .analyze-btn.active {
+    display: inline-block;
+  }
+  
+  .analyze-btn:hover {
+    background-color: #f57c00;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  

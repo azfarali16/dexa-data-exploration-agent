@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agentic Data Explorer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+  <div class="container">
+    <h1>AI Agentic Data Explorer</h1>
+    
+    <div class="upload-area" id="uploadArea">
+      <input type="file" id="fileInput" class="file-input" accept=".csv,.xlsx">
+      <label id ='uploadtxt' for="fileInput" class="upload-btn">Upload</label>
+      <p>Drag & Drop your CSV/XLSX file here or click to upload</p>
+    </div>
+    
+    <button id="analyzeBtn" class="analyze-btn">Analyze</button>
+    
+  </div>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

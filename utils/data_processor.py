@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import os
+from typing import Dict, Any, List
+
 class DataProcessor:
     """Handles data cleaning, profiling, and processing tasks"""
     
